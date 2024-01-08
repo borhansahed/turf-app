@@ -1,3 +1,9 @@
-export default function Home() {
-  return <main>Hello Its a Turf app</main>;
+import Home from "@/components/home/Home";
+
+export default function HomePage() {
+  return (
+    <main>
+      <Home />
+    </main>
+  );
 }
