@@ -7,43 +7,43 @@ export const NavItems = () => {
     {
       id: 1,
       name: "Home",
-      url: "",
+      url: "/",
     },
     {
       id: 2,
-      name: "Turfs",
-      url: "",
+      name: "Turf List",
+      url: "/turf-list",
     },
     {
       id: 3,
       name: "Dashboard",
-      url: "",
+      url: "/dashboard",
     },
     {
       id: 4,
       name: "Blogs",
-      url: "",
+      url: "/blogs",
     },
     {
       id: 5,
       name: "About",
-      url: "",
+      url: "/about",
     },
   ];
   return (
     <>
-      <div className="flex items-center gap-6">
-        {navLinks.map((link: { id: number; name: string; url: string }) => (
-          <Link href={link.url} key={link.id}>
-            <p className="hover:text-[#86A789]  text-primary font-medium">
-              {link.name}
-            </p>
-          </Link>
-        ))}
+      <div className="flex items-center gap-14 text-white">
+        <div className="flex items-center gap-4">
+          {navLinks.map((link: { id: number; name: string; url: string }) => (
+            <Link href={link.url} key={link.id}>
+              <p className="hover:text-[#86A789]   font-medium">{link.name}</p>
+            </Link>
+          ))}
+        </div>
 
         <div className="flex items-center gap-3">
-          <p className="text-primary hover:text-secondary underline">Login</p>
-          <Button variant={"outline"} className="border-primary">
+          <p className=" font-medium hover:text-secondary underline">Login</p>
+          <Button className="border-white border bg-transparent font-medium">
             SignUp
           </Button>
         </div>

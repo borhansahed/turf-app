@@ -5,19 +5,19 @@ import { Button } from "../ui/button";
 export const Banner = () => {
   return (
     <>
-      <div className="w-full h-[80vh] bg-[url(https://images.unsplash.com/photo-1544914379-806667cd9489?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] rounded-lg ">
+      <div className=" ">
         <h1 className="text-white text-5xl text-center font-extrabold pt-32 ">
-          <p className="flex justify-center gap-2 mb-5">
-            Hey <IoFootball />
+          <p className="flex justify-center gap-2 mb-5 tracking-[8px]">
+            #1 TURF SPORTS MANAGEMENT &
           </p>{" "}
-          <span className="">Would you like to play in Turf!</span>
+          <span className="tracking-[6px]">BOOKING PLATFORM IN BANGLADESH</span>
         </h1>
-        <p className="text-white text-2xl text-center mt-5 font-bold">
-          Lets Find Your Turf, Have Fun
+        <p className="text-white text-2xl text-center mt-5 font-bold tracking-[4px]">
+          Let`s Find Your Turf, Have Fun
         </p>
 
         <div className="flex justify-center mt-10">
-          <Button className="text-lg flex items-center gap-2 w-52 py-6 px-10 border font-bold border-white text-white">
+          <Button className="text-lg bg-transparent flex items-center gap-2  py-6 px-8 border font-bold border-white text-white">
             <span className="text-white text-2xl animate-pulse">
               <IoSearch />
             </span>{" "}
