@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/navbar/Navbar";
-import { Button } from "../ui/button";
+import { Banner } from "./Banner";
 
 const Home = () => {
   return (
@@ -8,6 +8,11 @@ const Home = () => {
         {/* Navbar */}
         <section>
           <Navbar />
+        </section>
+
+        {/* banner section */}
+        <section className="mt-11">
+          <Banner />
         </section>
       </main>
     </>
