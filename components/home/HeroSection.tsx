@@ -16,7 +16,7 @@ export const HeroSection = () => {
 
         {/* carousel */}
         <div className="basis-[70%]">
-          <CarouselDemo />
+          <CarouselComponent />
         </div>
       </div>
     </>
@@ -32,11 +32,11 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
-export function CarouselDemo() {
+export function CarouselComponent() {
   return (
     <Carousel className="">
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
+        {Array.from({ length: 3 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="w-full object-cover">
               <Image

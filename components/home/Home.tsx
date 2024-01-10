@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar/Navbar";
 import { Banner } from "./Banner";
 import { HeroSection } from "./HeroSection";
+import { Footer } from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -20,11 +21,15 @@ const Home = () => {
         </div>
 
         <div className="max-w-[1280px] mx-auto">
+          {/* Hero section */}
           <section className="mt-20">
             <HeroSection />
           </section>
         </div>
-        {/* Hero section */}
+
+        <div className="bg-primary text-white mt-16">
+          <Footer />
+        </div>
       </main>
     </>
   );
