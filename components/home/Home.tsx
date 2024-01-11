@@ -1,10 +1,11 @@
-"use client";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Banner } from "./Banner";
 import { HeroSection } from "./HeroSection";
 import { Footer } from "../footer/Footer";
 import { ClientReview } from "./ClientReview";
 import { PopularTown } from "./PopularTown";
+import { Benefit } from "./Benefit";
+import { FAQs } from "./FAQS";
 
 const Home = () => {
   return (
@@ -30,14 +31,28 @@ const Home = () => {
           </section>
 
           {/* Popular towns */}
-          <section className="mt-20">
+          <section className="mt-20 max-w-[85%] mx-auto">
             <PopularTown />
+          </section>
+          {/*  Benefit section */}
+
+          <section className="mt-20">
+            <Benefit />
           </section>
 
           {/* Clients Review */}
 
           <section className="mt-20">
             <ClientReview />
+          </section>
+
+          {/* FAQs */}
+
+          <section className="mt-20">
+            <h1 className="text-primary font-bold text-4xl text-center mb-4 italic tracking-[2px]">
+              FAQs
+            </h1>
+            <FAQs />
           </section>
         </div>
 
@@ -50,3 +65,4 @@ const Home = () => {
 };
 
 export default Home;
+// Discover the exclusive benefits that await you when you join our platform."

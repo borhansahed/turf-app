@@ -1,4 +1,3 @@
-"use client";
 export const PopularTown = () => {
   return (
     <>
@@ -29,9 +28,11 @@ export function TownCard({ text, flag }: { text: string; flag?: boolean }) {
           flag ? "dhaka" : "chattogram"
         } bg-cover w-1/2 h-[60vh] rounded-lg hover:border hover:border-primary transition hover:z-50 hover:scale-110 hover:w-full`}
       >
-        <h1 className="text-6xl text-white font-bold mt-48 ml-14">{text}</h1>
+        <h1 className="text-5xl uppercase text-white font-bold mt-48 ml-14">
+          {text}
+        </h1>
 
-        <div className="ml-16 mt-3 hover:border-transparent border border-white rounded-full h-14 w-14">
+        <div className="ml-16 mt-3  hover:border-transparent border border-white rounded-full h-14 w-14">
           <p className="text-white text-3xl flex items-center justify-center pt-3">
             <FaArrowRight />
           </p>
