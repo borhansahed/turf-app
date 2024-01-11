@@ -1,8 +1,10 @@
+"use client";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Banner } from "./Banner";
 import { HeroSection } from "./HeroSection";
 import { Footer } from "../footer/Footer";
 import { ClientReview } from "./ClientReview";
+import { PopularTown } from "./PopularTown";
 
 const Home = () => {
   return (
@@ -23,8 +25,13 @@ const Home = () => {
 
         <div className="max-w-[1280px] mx-auto">
           {/* Hero section */}
-          <section className="mt-20">
+          <section className="mt-24">
             <HeroSection />
+          </section>
+
+          {/* Popular towns */}
+          <section className="mt-20">
+            <PopularTown />
           </section>
 
           {/* Clients Review */}

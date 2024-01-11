@@ -53,7 +53,7 @@ export const ClientReview = () => {
   return (
     <>
       <div>
-        <h1 className="text-center text-primary  text-4xl font-bold tracking-[3px]">
+        <h1 className="text-center uppercase text-primary italic text-4xl font-bold tracking-[3px]">
           Our Clients
         </h1>
 

@@ -27,9 +27,18 @@
     --ring: 0 0% 3.9%;
 
     --radius: 0.5rem;
+    --bg-photo-chattogram: url("https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    --bg-photo-dhaka: url("https://images.unsplash.com/photo-1626964143945-b13d22dfe399?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRoYWthfGVufDB8fDB8fHww");
   }
 }
 
 body {
   cursor: pointer;
+}
+
+.chattogram {
+  background-image: var(--bg-photo-chattogram);
+}
+.dhaka {
+  background-image: var(--bg-photo-dhaka);
 }

@@ -12,6 +12,9 @@ export const HeroSection = () => {
           <p className="mt-4 text-secondary">
             Sports Lover, Cricket, Football, Team Game
           </p>
+          <Button className="mt-7 w-1/3 py-6 text-base font-medium hover:bg-transparent hover:border-primary text-white hover:border hover:text-primary">
+            Explore
+          </Button>
         </div>
 
         {/* carousel */}
@@ -31,6 +34,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 export function CarouselComponent() {
   return (
