@@ -5,7 +5,7 @@ import { Footer } from "../footer/Footer";
 import { ClientReview } from "./ClientReview";
 import { PopularTown } from "./PopularTown";
 import { Benefit } from "./Benefit";
-import { FAQs } from "./FAQS";
+import { FAQs } from "./FAQs";
 
 const Home = () => {
   return (

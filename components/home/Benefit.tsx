@@ -63,11 +63,11 @@ export function CarouselComponent() {
                 <h1 className="text-2xl font-semibold  text-secondary ">
                   {title}
                 </h1>
-                <div className=" flex flex-col justify-center text-secondary list-none gap-3 mt-10">
+                <div className=" flex flex-col justify-center text-muted-foreground list-none gap-3 mt-10">
                   {data.map((benefit: string) => (
                     <li
                       key={Math.random() * 23}
-                      className="flex items-center gap-2"
+                      className="flex items-center gap-2 text-sm"
                     >
                       {" "}
                       <span className="text-primary text-2xl">

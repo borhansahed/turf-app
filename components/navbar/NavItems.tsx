@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
+import { Login } from "../auth/Login";
+import { SignUp } from "../auth/Signup";
 
 export const NavItems = () => {
   const navLinks = [
@@ -42,10 +44,8 @@ export const NavItems = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          <p className=" font-medium hover:text-secondary underline">Login</p>
-          <Button className="border-white border bg-transparent font-medium">
-            SignUp
-          </Button>
+          <Login />
+          <SignUp />
         </div>
       </div>
     </>
